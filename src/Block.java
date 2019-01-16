@@ -1,13 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
-/**
- *
- * @author fitexmage
- */
 public class Block {
 
     int[] location;
@@ -20,7 +10,7 @@ public class Block {
         this.length = length;
     }
 
-    public boolean interaction(Block block) {
+    boolean interaction(Block block) {
         int[] newLocation = {block.location[0], block.location[1]};
 
         for (int i = 0; i < block.length; i++) {
@@ -35,7 +25,6 @@ public class Block {
     }
 
     public Block clone() {
-        Block newBlock = new Block(location.clone(), direction, length);
-        return newBlock;
+        return new Block(location.clone(), direction, length);
     }
 }
