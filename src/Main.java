@@ -3,7 +3,6 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package slidingblock;
 
 /**
  *
@@ -28,7 +27,6 @@ public class Main {
         Block b10 = new Block(new int[]{1, 5}, 0, 3);
         Block b11 = new Block(new int[]{5, 2}, 1, 3);
         
-
         Block[] blockList = {main, b1, b2, b3, b4, b5, b6, b7, b8, b9, b10, b11};
         SlidingBlock solution = new SlidingBlock(blockList);
     }
