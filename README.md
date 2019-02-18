@@ -1,5 +1,5 @@
 # Sliding-Block-Solver
-A sliding block puzzle solver using Java.
+A sliding block puzzle solver using Java. \
 Developed using IntelliJ IDEA.
 
 ## Introduction
